@@ -186,4 +186,7 @@ footer:not(:first-child) {
   letter-spacing: 0.4;
   color: var(--color-6);
 }
+.small-banner-img {
+  width: auto;
+}
 /* Home Page End here */

@@ -19,14 +19,29 @@ const Home = () => {
               </div>
             </div>
             <div className='col-6'>
-            <div className='d-flex flex-warp justify-content-between align-items-center'>
+            <div className='d-flex flex-warp justify-content-between align-items-center gap-15'>
               <div className='small-banner position-relative p-3'>
-                <img src="https://images.unsplash.com/photo-1596207498818-edb80522f50b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" width="50%" className='img-fluid rounded-3' alt="" />
+                <img src="https://images.unsplash.com/photo-1596207498818-edb80522f50b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" className='img-fluid rounded-3 small-banner-img' alt="" />
                 <div className='small-banner-content position-absolute'>
                   <h4>Supercharged For Pros.</h4>
                   <h5>Ipad S13+ Pro.</h5>
                   <p>From $999.00 or $50.00/month</p>
-                  <Link className='button-banner'>Buy Now</Link>
+                </div>
+              </div>
+              <div className='small-banner position-relative p-3'>
+                <img src="https://images.unsplash.com/photo-1596207498818-edb80522f50b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" className='img-fluid rounded-3 small-banner-img' alt="" />
+                <div className='small-banner-content position-absolute'>
+                  <h4>Supercharged For Pros.</h4>
+                  <h5>Ipad S13+ Pro.</h5>
+                  <p>From $999.00 or $50.00/month</p>
+                </div>
+              </div>
+              <div className='small-banner position-relative p-3'>
+                <img src="https://images.unsplash.com/photo-1596207498818-edb80522f50b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" className='img-fluid rounded-3 small-banner-img' alt="" />
+                <div className='small-banner-content position-absolute'>
+                  <h4>Supercharged For Pros.</h4>
+                  <h5>Ipad S13+ Pro.</h5>
+                  <p>From $999.00 or $50.00/month</p>
                 </div>
               </div>
             </div>
