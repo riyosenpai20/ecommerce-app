@@ -5,7 +5,7 @@ import {
   BsFillHeartFill, 
   BsArrowRepeat,
   BsFillPersonFill,
-  BsFillBasketFill,
+  BsCart4,
 } from 'react-icons/bs';
 
 const Header = () => {
@@ -78,7 +78,7 @@ const Header = () => {
                 <div>
                   <Link className='text-white d-flex flex-row column-gap-2 align-items-center'>
                     <div className=''>
-                      <BsFillBasketFill className='fs-1'/>
+                      <BsCart4 className='fs-1'/>
                     </div>
                     <div className='d-flex flex-column gap-1'>
                       <span className='badge bg-white text-dark'>0</span>
@@ -105,9 +105,15 @@ const Header = () => {
                     </span>
                   </button>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li>
+                      <Link className="dropdown-item text-white" to="/">Action</Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item text-white" to="/">Another action</Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item text-white" to="/">Something else here</Link>
+                    </li>
                   </ul>
                 </div>
                 </div>
