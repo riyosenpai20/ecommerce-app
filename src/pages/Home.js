@@ -63,24 +63,40 @@ const Home = () => {
           <div className='row'>
             <div className='col-12'>
               <div className='services d-flex align-items-center justify-content-between'>
-                <div>
-                  <BsTruck className='fs-2'/>
+                <div className='d-flex align-items-center gap-15'>
+                  <BsTruck className='fs-2 d-flex align-items-center'/>
                   <div>
                     <h6>Free Shipping</h6>
                     <p>From all orders over $5</p>
                   </div>
                 </div>
-                <div>
+                <div className='d-flex align-items-center gap-15'>
                   <BsFillGiftFill className='fs-2'/>
+                  <div>
+                    <h6>Daily Suprise Offers</h6>
+                    <p>Save up to  25%</p>
+                  </div>
                 </div>
-                <div>
+                <div className='d-flex align-items-center gap-15'>
                   <BsHeadset className='fs-2'/>
+                  <div>
+                    <h6>Support 24/7</h6>
+                    <p>Shop with an expert</p>
+                  </div>
                 </div>
-                <div>
+                <div className='d-flex align-items-center gap-15'>
                   <BsPercent className='fs-2'/>
+                  <div>
+                    <h6>Affordable Prices</h6>
+                    <p>Get Factory Default Price</p>
+                  </div>
                 </div>
-                <div>
+                <div className='d-flex align-items-center gap-15'>
                   <BsCreditCard className='fs-2'/>
+                  <div>
+                    <h6>Secure Payments</h6>
+                    <p>100% Protected Payment</p>
+                  </div>
                 </div>
               </div>
             </div>
