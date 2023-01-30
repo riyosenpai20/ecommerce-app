@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import {BsCreditCard, BsFillAlarmFill, BsFillGiftFill, BsHeadset, BsPercent, BsTruck} from 'react-icons/bs'
+import {BsCreditCard, BsFillGiftFill, BsHeadset, BsPercent, BsTruck} from 'react-icons/bs'
+import Marquee from 'react-fast-marquee'
 
 const Home = () => {
   return (
@@ -64,40 +65,139 @@ const Home = () => {
             <div className='col-12'>
               <div className='services d-flex align-items-center justify-content-between'>
                 <div className='d-flex align-items-center gap-15'>
-                  <BsTruck className='fs-2 d-flex align-items-center'/>
-                  <div>
-                    <h6>Free Shipping</h6>
-                    <p>From all orders over $5</p>
+                  <BsTruck className='fs-2'/>
+                  <div className='d-flex flex-column justify-content-center'>
+                    <h6 className=''>Free Shipping</h6>
+                    <p className='mb-0'>From all orders over $5</p>
                   </div>
                 </div>
                 <div className='d-flex align-items-center gap-15'>
                   <BsFillGiftFill className='fs-2'/>
                   <div>
                     <h6>Daily Suprise Offers</h6>
-                    <p>Save up to  25%</p>
+                    <p className='mb-0'>Save up to  25%</p>
                   </div>
                 </div>
                 <div className='d-flex align-items-center gap-15'>
                   <BsHeadset className='fs-2'/>
                   <div>
                     <h6>Support 24/7</h6>
-                    <p>Shop with an expert</p>
+                    <p className='mb-0'>Shop with an expert</p>
                   </div>
                 </div>
                 <div className='d-flex align-items-center gap-15'>
                   <BsPercent className='fs-2'/>
                   <div>
                     <h6>Affordable Prices</h6>
-                    <p>Get Factory Default Price</p>
+                    <p className='mb-0'>Get Factory Default Price</p>
                   </div>
                 </div>
                 <div className='d-flex align-items-center gap-15'>
                   <BsCreditCard className='fs-2'/>
                   <div>
                     <h6>Secure Payments</h6>
-                    <p>100% Protected Payment</p>
+                    <p className='mb-0'>100% Protected Payment</p>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className='home-wrapper-2 py-5'>
+        <div className='container-xxl'>
+          <div className='row'>
+            <div className='col-12'>
+              <div className='categories d-flex justify-content-between flex-wrap align-items-center'>
+                <div className='d-flex gap align-items-center'>
+                  <div>
+                    <h6>Cameras</h6>
+                    <p>10 Item</p>
+                  </div>
+                  <img className='w-25' src="./category/camera.png" alt="camera" />
+                </div>
+                <div className='d-flex gap align-items-center'>
+                  <div>
+                    <h6>Smart Tv</h6>
+                    <p>10 Item</p>
+                  </div>
+                  <img className='w-25' src="./category/smart-tv.png" alt="camera" />
+                </div>
+                <div className='d-flex gap align-items-center'>
+                  <div>
+                    <h6>Smart Watches</h6>
+                    <p>10 Item</p>
+                  </div>
+                  <img className='w-25' src="./category/smart-watch.png" alt="camera" />
+                </div>
+                <div className='d-flex gap align-items-center'>
+                  <div>
+                    <h6>Computer</h6>
+                    <p>10 Item</p>
+                  </div>
+                  <img className='w-25' src="./category/macbook.png" alt="camera" />
+                </div>
+                <div className='d-flex gap align-items-center'>
+                  <div>
+                    <h6>Cameras</h6>
+                    <p>10 Item</p>
+                  </div>
+                  <img className='w-25' src="./category/camera.png" alt="camera" />
+                </div>
+                <div className='d-flex gap align-items-center'>
+                  <div>
+                    <h6>Smart Tv</h6>
+                    <p>10 Item</p>
+                  </div>
+                  <img className='w-25' src="./category/smart-tv.png" alt="camera" />
+                </div>
+                <div className='d-flex gap align-items-center'>
+                  <div>
+                    <h6>Smart Watches</h6>
+                    <p>10 Item</p>
+                  </div>
+                  <img className='w-25' src="./category/smart-watch.png" alt="camera" />
+                </div>
+                <div className='d-flex gap align-items-center'>
+                  <div>
+                    <h6>Computer</h6>
+                    <p>10 Item</p>
+                  </div>
+                  <img className='w-25' src="./category/macbook.png" alt="camera" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className='marque-wrapper py-5'>
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <div className="marquee-inner-wrapper card-wrapper">
+                <Marquee className='d-flex brands'>
+                  <div className='mx-4 w-25'>
+                    <img src="./category/brand-01.png" alt="" />
+                  </div>
+                  <div className='mx-4 w-25'>
+                    <img src="./category/brand-02.png" alt="" />
+                  </div>
+                  <div className='mx-4 w-25'>
+                    <img src="./category/brand-03.png" alt="" />
+                  </div>
+                  <div className='mx-4 w-25'>
+                    <img src="./category/brand-04.png" alt="" />
+                  </div>
+                  <div className='mx-4 w-25'>
+                    <img src="./category/brand-05.png" alt="" />
+                  </div>
+                  <div className='mx-4 w-25'>
+                    <img src="./category/brand-06.png" alt="" />
+                  </div>
+                  <div className='mx-4 w-25'>
+                    <img src="./category/brand-07.png" alt="" />
+                  </div>
+                </Marquee>
               </div>
             </div>
           </div>
