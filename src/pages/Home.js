@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import {BsCreditCard, BsFillGiftFill, BsHeadset, BsPercent, BsTruck} from 'react-icons/bs';
 import Marquee from 'react-fast-marquee';
 import BlogCard from '../components/BlogCard';
+import ProductCard from '../components/ProductCard';
 
 const Home = () => {
   return (
@@ -201,6 +202,19 @@ const Home = () => {
                 </Marquee>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section className='blog-wrapper py-5 home-wrapper'>
+        <div className="container-xxl">
+          <div className="row">
+            <div className='col-12'>
+              <h3 className='section-heading'>Featured Collection</h3>
+            </div>
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
           </div>
         </div>
       </section>
