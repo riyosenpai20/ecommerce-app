@@ -383,3 +383,13 @@ footer:not(:first-child) {
   font-size: 20px;
 }
 /* Product Card End Here */
+
+/* Special product */
+
+.special-product-card {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--color-white);
+}
+
+/* Special Product end here */
