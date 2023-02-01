@@ -13,6 +13,8 @@
   --color-7: #f5f5f7;
   --color-8: #8f8f8f;
   --color-9: #777777;
+  --color-10: #1c1c1b;
+  --color-11: #bf4800;
   --color-white: #FFFFFF;
 }
 
@@ -164,11 +166,12 @@ footer:not(:first-child) {
   font-size: 14px;
   padding: 13px 33px;
   border-radius: 5rem;
+  transition: 0.5s all;
 }
 
 .button-banner:hover {
   background-color: var(--color-5);
-  transition: 0.3s all;
+  
 }
 
 .small-banner-content {
@@ -300,15 +303,15 @@ footer:not(:first-child) {
   padding: 10px 20px;
   background-color: var(--color-4);
   color: var(--color-white);
+  -webkit-transition: .4s ease-out;
+  -moz-transition: .4s ease-out;
+  -o-transition: .4s ease-out;
+  transition: .4s ease-out;
 }
 
 .blog-content .button:hover {
   background-color: var(--color-5);
   color: var(--color-white);
-  -webkit-transition: background-color .3s ease-out;
-  -moz-transition: background-color .3s ease-out;
-  -o-transition: background-color .3s ease-out;
-  transition: background-color .3s ease-out;
 }
 /* End Blog Part */
 
@@ -317,5 +320,66 @@ footer:not(:first-child) {
   padding: 15px;
   background-color: var(--color-white);
   border-radius: 10px;
+  overflow: hidden;
+}
+
+.product-card:hover .action-bar{
+  right: 15px;
+}
+
+.product-card .product-details h6 {
+  color: var(--color-11);
+  font-size: 13px;
+}
+
+.product-card .product-details h5 {
+  font-size: 15px;
+  color: var(--color-10);
+}
+
+.product-card .product-details p.price {
+  font-size: 16px;
+  color: var(--color-11);
+}
+
+.product-card .product-image {
+  height: 270px;
+}
+
+.product-card .product-image img {
+  object-fit: contain;
+}
+
+.product-card .product-image > img:last-child {
+  display: none;
+}
+
+.product-card:hover .product-image > img:nth-child(1) {
+  display: none;
+}
+
+.product-card:hover .product-image > img:last-child {
+  display: block;
+}
+
+.action-bar {
+  top: 17%;
+  right: -40px;
+  transition: 0.5s;
+  font-size: 20px;
+}
+.action-bar a {
+  color: var(--color-4);
+  transition: 0.3s;
+}
+
+.action-bar a:hover {
+  color: var(--color-6);
+}
+
+.wishlist-icon {
+  top: 4%;
+  right: 15px;
+  font-size: 20px;
 }
 /* Product Card End Here */
