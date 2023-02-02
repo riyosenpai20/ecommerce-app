@@ -194,7 +194,7 @@ const Home = () => {
                 Special Products
               </h3>
             </div>
-            <div className="row">
+            <div className="row gap-5">
               <SpecialProducts />
               <SpecialProducts />
               <SpecialProducts />
