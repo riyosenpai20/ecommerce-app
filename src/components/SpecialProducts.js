@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const SpecialProducts = () => {
   return (
-    <div className="col-6">
+    <div className="col-4">
       <div className="special-product-card">
         <div className="d-flex justify-content-between">
           <div className='special-product-image'>

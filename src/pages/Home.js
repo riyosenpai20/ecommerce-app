@@ -190,11 +190,46 @@ const Home = () => {
         <div className="container-xxl">
           <div className="row">
             <div className='col-3'>
-              <div className="famous-card bg-dark text-white">
-                <h5>Big Screen</h5>
-                <h6>Smart Watch Series 7</h6>
+              <div className='d-flex justify-content-center famous-card position-relative bg-dark rounded-3'>
+                <img src="./images/smart-watch.png" alt="" />
+                <div className="famous-content position-absolute">
+                  <h5 className='text-uppercase'>Big Screen</h5>
+                  <h6>Smart Watch Series 7</h6>
+                  <p>From $400 or $16/mo for 24mo.*</p>
+                </div>
               </div>
             </div>
+            <div className='col-3'>
+              <div className='d-flex justify-content-center famous-card position-relative bg-warning rounded-3'>
+                <img src="./images/smart-watch.png" alt="" />
+                <div className="famous-content position-absolute">
+                  <h5 className='text-dark text-uppercase'>Big Screen</h5>
+                  <h6 className='text-dark'>Smart Watch Series 7</h6>
+                  <p className='text-dark'>From $400 or $16/mo for 24mo.*</p>
+                </div>
+              </div>
+            </div>
+            <div className='col-3'>
+              <div className='d-flex justify-content-center famous-card position-relative bg-dark rounded-3'>
+                <img src="./images/smart-watch.png" alt="" />
+                <div className="famous-content position-absolute">
+                  <h5 className='text-uppercase'>Big Screen</h5>
+                  <h6>Smart Watch Series 7</h6>
+                  <p>From $400 or $16/mo for 24mo.*</p>
+                </div>
+              </div>
+            </div>
+            <div className='col-3'>
+              <div className='d-flex justify-content-center famous-card position-relative bg-warning rounded-3'>
+                <img src="./images/smart-watch.png" alt="" />
+                <div className="famous-content position-absolute">
+                  <h5 className='text-dark text-uppercase'>Big Screen</h5>
+                  <h6 className='text-dark'>Smart Watch Series 7</h6>
+                  <p className='text-dark'>From $400 or $16/mo for 24mo.*</p>
+                </div>
+              </div>
+            </div>
+            
           </div>
         </div>
       </section>
@@ -206,7 +241,7 @@ const Home = () => {
                 Special Products
               </h3>
             </div>
-            <div className="row gap-5">
+            <div className="row gap-0">
               <SpecialProducts />
               <SpecialProducts />
               <SpecialProducts />
@@ -222,7 +257,7 @@ const Home = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-2">
+            {/* <div className="col-2">
               <div className="card">
 
               </div>
@@ -231,7 +266,7 @@ const Home = () => {
               <div className="card">
 
               </div>
-            </div>
+            </div> */}
             <ProductCard />
             <ProductCard />
             <ProductCard />
