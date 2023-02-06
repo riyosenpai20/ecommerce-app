@@ -191,6 +191,9 @@ const OurStore = () => {
                     <p className="totalProducts">
                       21 Products
                     </p>
+                    <div className="d-flex gap-10 align-items-center">
+                      
+                    </div>
                   </div>
                 </div>
               </div>
