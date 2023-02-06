@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactStars from 'react-rating-stars-component'
 import Breadcrumb from '../components/Breadcrumb'
 import Meta from '../components/Meta'
 
@@ -121,15 +122,79 @@ const OurStore = () => {
               <div className='filter-card mb-3'>
                 <h3 className="filter-title">Random Product</h3>
                 <div>
-                  <div className="random-products d-flex">
+                  <div className="random-products d-flex mb-3">
                     <div className="w-50">
-                      <img src="./images/smart-watch.png" alt="smartwatch" width={"80%"} className="img-fluid" />
+                      <img 
+                        src="./images/smart-watch.png" 
+                        alt="smartwatch" 
+                        width={"80%"} 
+                        className="img-fluid" 
+                      />
+                    </div>
+                    <div className="w-50">
+                      <h5>
+                        Smartwatch Apple Series 2
+                      </h5>
+                      <ReactStars 
+                        count={5}
+                        size={24}
+                        value={4}
+                        edit={false}
+                        activeColor="#ffd700"
+                      />
+                      <b>$1500.00</b>
+                    </div>
+                  </div>
+                  <div className="random-products d-flex mb-3">
+                    <div className="w-50">
+                      <img 
+                        src="./images/smart-watch.png" 
+                        alt="smartwatch" 
+                        width={"80%"} 
+                        className="img-fluid" 
+                      />
+                    </div>
+                    <div className="w-50">
+                      <h5>
+                        Smartwatch Apple Series 2
+                      </h5>
+                      <ReactStars 
+                        count={5}
+                        size={24}
+                        value={4}
+                        edit={false}
+                        activeColor="#ffd700"
+                      />
+                      <b>$1500.00</b>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-9"></div>
+            <div className="col-9">
+              <div className="filter-sort-grid">
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="dflex align-items-center gap-10">
+                    <p className="mb-0">Sort By :</p>
+                    <select name="" id="" className="form-control form-select">
+                      <option value="manual">Featured</option>
+                      <option value="best-selling" selected="selected">Best Selling</option>
+                      <option value="title-ascending">A-Z</option>
+                      <option value="title-descending">Z-A</option>
+                      <option value="price-ascending">low to high</option>
+                      <option value="price-descending">high to low</option>
+                      <option value="created-ascending">old to new</option>
+                      <option value="created-descending">new to old</option>
+                    </select>
+                  </div>
+                  <div className='d-flex align-items-center gap-10'>
+                    <p className="totalProducts">
+                      21 Products
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div> 
         </div>
       </div>
