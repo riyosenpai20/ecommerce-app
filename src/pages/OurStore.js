@@ -172,10 +172,10 @@ const OurStore = () => {
               </div>
             </div>
             <div className="col-9">
-              <div className="filter-sort-grid">
+              <div className="filter-sort-grid mb-4">
                 <div className="d-flex justify-content-between align-items-center">
-                  <div className="dflex align-items-center gap-10">
-                    <p className="mb-0">Sort By :</p>
+                  <div className="d-flex align-items-center gap-10">
+                    <p className="mb-0 d-block" style={{width: "100px"}}>Sort By :</p>
                     <select name="" id="" className="form-control form-select">
                       <option value="manual">Featured</option>
                       <option value="best-selling" selected="selected">Best Selling</option>
@@ -188,14 +188,20 @@ const OurStore = () => {
                     </select>
                   </div>
                   <div className='d-flex align-items-center gap-10'>
-                    <p className="totalProducts">
+                    <p className="totalProducts mb-0">
                       21 Products
                     </p>
-                    <div className="d-flex gap-10 align-items-center">
-                      
+                    <div className="d-flex gap-10 align-items-center grid">
+                      <img src="./icons/grid-column-4.svg" className='d-block img-fluid' alt="grid" />
+                      <img src="./icons/grid-column-3.svg" className='d-block img-fluid' alt="grid" />
+                      <img src="./icons/grid-column-2.svg" className='d-block img-fluid' alt="grid" />
+                      <img src="./icons/grid-row.svg" className='d-block img-fluid' alt="grid" />
                     </div>
                   </div>
                 </div>
+              </div>
+              <div className="products-list pb-5">
+                
               </div>
             </div>
           </div> 

@@ -522,4 +522,12 @@ footer:not(:first-child) {
   background-color: var(--color-white);
   border-radius: 10px;
 }
+
+.grid img {
+  width: 29px;
+  height: 29px;
+  background-color: var(--color-7);
+  padding: 8px;
+  border-radius: 3px;
+}
 /* Our Store end here */
