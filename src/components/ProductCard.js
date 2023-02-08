@@ -13,7 +13,7 @@ const ProductCard = (props) => {
     let location = useLocation();
   return (
     <>
-        <div className={`${location.pathname == "/store" ? `gr-${grid}` : "col-3"}`}>
+        <div className={`${location.pathname === "/store" ? `gr-${grid}` : "col-3"}`}>
             <div className="product-card position-relative">
                 <div className='wishlist-icon position-absolute'>
                     <Link>
@@ -42,6 +42,9 @@ const ProductCard = (props) => {
                         size={24} 
                         activeColor="#ffd700" 
                     />
+                    <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officia deserunt nihil sequi et a unde quia expedita eligendi sed quaerat, mollitia dignissimos, dolorem magnam magni ad delectus omnis? Quisquam.
+                    </p>
                     <p className='price'>$300.00</p>
                 </div>
                 <div className="action-bar position-absolute">
@@ -59,7 +62,7 @@ const ProductCard = (props) => {
                 </div>
             </div>
         </div>
-        <div className={`${location.pathname == "/store" ? `gr-${grid}` : "col-3"}`}>
+        <div className={`${location.pathname === "/store" ? `gr-${grid}` : "col-3"}`}>
             <div className="product-card position-relative">
                 <div className='wishlist-icon position-absolute'>
                     <Link>
@@ -88,6 +91,9 @@ const ProductCard = (props) => {
                         size={24} 
                         activeColor="#ffd700" 
                     />
+                    <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officia deserunt nihil sequi et a unde quia expedita eligendi sed quaerat, mollitia dignissimos, dolorem magnam magni ad delectus omnis? Quisquam.
+                    </p>
                     <p className='price'>$300.00</p>
                 </div>
                 <div className="action-bar position-absolute">
