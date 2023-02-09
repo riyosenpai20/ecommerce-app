@@ -52,7 +52,7 @@ const Header = () => {
             <div className='col-5'>
               <div className='header-upper-links d-flex align-items-center justify-content-between'>
                 <div>
-                  <Link className='text-white d-flex flex-row column-gap-2 align-items-center'>
+                  <Link to={"/compare-product"} className='text-white d-flex flex-row column-gap-2 align-items-center'>
                     <div>
                       <BsArrowRepeat className='fs-1'/>
                     </div>
