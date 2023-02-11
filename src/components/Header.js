@@ -60,7 +60,7 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className='text-white d-flex flex-row column-gap-2 align-items-center'>
+                  <Link to={"/wishlist"} className='text-white d-flex flex-row column-gap-2 align-items-center'>
                   <div>
                       <BsFillHeartFill className='fs-1'/>
                     </div>
