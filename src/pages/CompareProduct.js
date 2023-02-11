@@ -7,6 +7,7 @@ import {
   BsArrowRepeat,
   BsFillPersonFill,
   BsCart4,
+  BsXLg,
 } from 'react-icons/bs';
 import Color from '../components/Color';
 
@@ -21,7 +22,7 @@ const CompareProduct = () => {
             <div className="col-3">
               <div className="compare-product-card position-relative">
                 <div>
-                  <BsArrowRepeat className='position-absolute cross img-fluid'/>
+                  <BsXLg className='position-absolute cross img-fluid'/>
                 </div>
                 <div className="product-card-image">
                   <img src="./images/smart-watch.png" alt="watch" width="60%" />
@@ -62,7 +63,7 @@ const CompareProduct = () => {
             <div className="col-3">
               <div className="compare-product-card position-relative">
                 <div>
-                  <BsArrowRepeat className='position-absolute cross img-fluid'/>
+                  <BsXLg className='position-absolute cross img-fluid'/>
                 </div>
                 <div className="product-card-image">
                   <img src="./images/smart-watch.png" alt="watch" width="60%" />
